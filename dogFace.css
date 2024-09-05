@@ -72,6 +72,7 @@ body{
     width: 3em;
     height: 3em;
     background-color: black;
-    top: 5em;
-    left: 5em;
+    top: 9em;
+    left: 6em;
+    border-radius: 50%;
 }
