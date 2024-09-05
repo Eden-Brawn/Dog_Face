@@ -4,3 +4,14 @@
 body{
     background-color: blueviolet;
 }
+.dog-face{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 5em;
+    height: 4em;
+    background: linear-gradient(brown 40%, white 10%, brown 40%);
+}
