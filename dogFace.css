@@ -24,14 +24,14 @@ body{
             }
 .dog-left-ear{
     position: absolute;
-    top: -1rem;
-    left: -1rem;
+    top: -2rem;
+    left: -3rem;
     z-index: 999;
     /*This is how you make a triangle shape, left and right borders are transparent and the bottom is there*/
     /*Increasing size of left and right make it wider and increasing size if bottom makes it longer*/
-    border-left: 3em solid rgba(0, 0, 0, 0);
-    border-right: 3em solid rgba(0, 0, 0, 0);
-    border-bottom: 6em solid rgb(255, 171, 36);
+    border-left: 4em solid rgba(0, 0, 0, 0);
+    border-right: 4em solid rgba(0, 0, 0, 0);
+    border-bottom: 8em solid rgb(255, 171, 36);
     /*To add a curve give left right a small border radius and the other a large*/
     border-top-left-radius: 1%;
     border-top-right-radius: 99%;
@@ -39,16 +39,16 @@ body{
 }
 .dog-right-ear{
     position: absolute;
-    top: -1rem;
-    left: 30rem;
+    top: -2rem;
+    left: 20rem;
     z-index: 999;
     /*This is how you make a triangle shape, left and right borders are transparent and the bottom is there*/
     /*Increasing size of left and right make it wider and increasing size if bottom makes it longer*/
-    border-left: 3em solid rgba(0, 0, 0, 0);
-    border-right: 3em solid rgba(0, 0, 0, 0);
-    border-bottom: 6em solid rgb(255, 171, 36);
+    border-left: 4em solid rgba(0, 0, 0, 0);
+    border-right: 4em solid rgba(0, 0, 0, 0);
+    border-bottom: 8em solid rgb(255, 171, 36);
     /*To add a curve give left right a small border radius and the other a large*/
-    border-top-left-radius: 1%;
-    border-top-right-radius: 99%;
+    border-top-left-radius: 99%;
+    border-top-right-radius: 1%;
     transform: rotate(45deg);
 }
