@@ -18,4 +18,11 @@ body{
                 linear-gradient(to top, rgb(255, 255, 255), rgba(255, 0, 0, 0) 100%),
                 linear-gradient(to bottom, white, rgba(255, 0, 0, 0) 100%);
     border-radius: 45%;
+    border: 0.001rem solid black;
             }
+.dog-left-ear{
+
+}
+.dog-right-ear{
+    
+}
