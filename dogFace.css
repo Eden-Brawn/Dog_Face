@@ -63,8 +63,8 @@ body{
     border-right: 2em solid rgba(0, 0, 0, 0);
     border-bottom: 4em solid rgb(255, 157, 0);
     /*To add a curve give left right a small border radius and the other a large*/
-    border-top-left-radius: 1%;
-    border-top-right-radius: 99%;
+    border-top-left-radius: 99%;
+    border-top-right-radius: 1%;
     transform: rotate(-1deg);
 }
 .inside-right-ear{
@@ -78,8 +78,8 @@ body{
     border-right: 2em solid rgba(0, 0, 0, 0);
     border-bottom: 4em solid rgb(255, 157, 0);
     /*To add a curve give left right a small border radius and the other a large*/
-    border-top-left-radius: 99%;
-    border-top-right-radius: 1%;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 99%;
     transform: rotate(1deg);
 }
 
@@ -150,4 +150,10 @@ body{
     border-radius: 50%;
     top: 17.5em;
     left: 10.5em;
+}
+.left-one{
+    position: absolute;
+    z-index: 999;
+    width: 6em;
+    border-bottom: solid 0.1em black;
 }
