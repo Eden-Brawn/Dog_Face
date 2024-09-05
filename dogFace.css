@@ -6,6 +6,7 @@ body{
 }
 .dog-head{
     position: absolute;
+    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
@@ -22,11 +23,12 @@ body{
             }
 .dog-left-ear{
     position: absolute;
-    
-    z-index: 1;
-    border-bottom: 1em solid black;
-    border-bottom: 1em solid black;
-    border-bottom: 1em solid black;
+    top: 10em;
+    left: 10em;
+    z-index: 999;
+    border-left: 10em solid black;
+    border-right: 10em solid black;
+    border-bottom: 10em solid black;
 }
 .dog-right-ear{
     position: absolute;
