@@ -76,3 +76,13 @@ body{
     left: 6em;
     border-radius: 50%;
 }
+.dog-right-eye{
+    position: absolute;
+    z-index: 999;
+    width: 3em;
+    height: 3em;
+    background-color: black;
+    top: 9em;
+    left: 15em;
+    border-radius: 50%;
+}
