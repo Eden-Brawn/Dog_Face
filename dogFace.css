@@ -52,6 +52,37 @@ body{
     border-top-right-radius: 1%;
     transform: rotate(45deg);
 }
+.inside-left-ear{
+    position: absolute;
+    top: 3rem;
+    left: -2rem;
+    z-index: 999;
+    /*This is how you make a triangle shape, left and right borders are transparent and the bottom is there*/
+    /*Increasing size of left and right make it wider and increasing size if bottom makes it longer*/
+    border-left: 2em solid rgba(0, 0, 0, 0);
+    border-right: 2em solid rgba(0, 0, 0, 0);
+    border-bottom: 4em solid rgb(255, 157, 0);
+    /*To add a curve give left right a small border radius and the other a large*/
+    border-top-left-radius: 1%;
+    border-top-right-radius: 99%;
+    transform: rotate(-1deg);
+}
+.inside-right-ear{
+    position: absolute;
+    top: 3rem;
+    left: -2rem;
+    z-index: 999;
+    /*This is how you make a triangle shape, left and right borders are transparent and the bottom is there*/
+    /*Increasing size of left and right make it wider and increasing size if bottom makes it longer*/
+    border-left: 2em solid rgba(0, 0, 0, 0);
+    border-right: 2em solid rgba(0, 0, 0, 0);
+    border-bottom: 4em solid rgb(255, 157, 0);
+    /*To add a curve give left right a small border radius and the other a large*/
+    border-top-left-radius: 99%;
+    border-top-right-radius: 1%;
+    transform: rotate(1deg);
+}
+
 .dog-muzzle{
     position: absolute;
     top: 12.5em;
