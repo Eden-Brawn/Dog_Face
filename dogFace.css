@@ -52,3 +52,13 @@ body{
     border-top-right-radius: 1%;
     transform: rotate(45deg);
 }
+.dog-mouth{
+    position: absolute;
+    top: 12.5em;
+    left: 8.5em;
+    z-index: 999;
+    border-top: 15em solid white;
+    border-left: 0.1em solid rgba(245, 222, 179, 0);
+    border-right: 0.1em solid rgba(245, 222, 179, 0);
+    width: 8em;
+}
