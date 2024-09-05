@@ -88,6 +88,28 @@ body{
     border-radius: 50%;
     transform: rotate(25deg);
 }
+.inside-left-eye{
+    position: absolute;
+    z-index: 999;
+    width: 1em;
+    height: 1.3125em;
+    background-color: white;
+    top: 1em;
+    left: 1em;
+    border-radius: 50%;
+    transform: rotate(-25deg);
+}
+.inside-right-eye{
+    position: absolute;
+    z-index: 999;
+    width: 1em;
+    height: 1.3125em;
+    background-color: white;
+    top: 1em;
+    left: 1em;
+    border-radius: 50%;
+    transform: rotate(25deg);
+}
 .dog-nose{
     position: absolute;
     z-index: 999;
