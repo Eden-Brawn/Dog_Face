@@ -86,3 +86,10 @@ body{
     left: 15em;
     border-radius: 50%;
 }
+.dog-nose{
+    position: absolute;
+    z-index: 999;
+    width: 4em;
+    height: 3em;
+    background-color: black;
+}
