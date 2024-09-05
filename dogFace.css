@@ -21,8 +21,13 @@ body{
     border: 0.001rem solid black;
             }
 .dog-left-ear{
-
+    position: absolute;
+    
+    z-index: 1;
+    border-bottom: 1em solid black;
+    border-bottom: 1em solid black;
+    border-bottom: 1em solid black;
 }
 .dog-right-ear{
-    
+    position: absolute;
 }
