@@ -4,14 +4,16 @@
 body{
     background-color: blueviolet;
 }
-.dog-face{
+.dog-head{
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
-    width: 5em;
-    height: 4em;
-    background: linear-gradient(brown 40%, white 10%, brown 40%);
+    width: 15em;
+    height: 13em;
+    background: linear-gradient(217deg, rgb(180, 120, 2), rgba(231, 196, 124, 0) 70.71%),
+                linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+                linear-gradient(336deg, rgba(255,255,255,.8), rgba(255, 255, 255, 0.162) 70.71%);
 }
