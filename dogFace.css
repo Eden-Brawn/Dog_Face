@@ -219,12 +219,13 @@ body{
     top: 17em;
     left: 10.95em;
 }
-.cover{
+.cover-left{
     position: absolute;
     z-index: 998;
     width: 7em;
     height: 5em;
     background-color: rgb(244, 244, 244);
-    top: 15em;
-    left: 10em;
+    top: 14em;
+    left: 6em;
+    border-radius: 50%;
 }
