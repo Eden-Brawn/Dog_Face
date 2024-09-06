@@ -219,6 +219,14 @@ body{
     top: 17em;
     left: 10.95em;
 }
+.tounge-line{
+    position: absolute;
+    z-index: 999;
+    height: 2.5em;
+    border: solid 0.01em rgba(166, 0, 0, 0.837);
+    top: 1em;
+    left: 1.5em;
+}
 .cover-left{
     position: absolute;
     z-index: 998;
