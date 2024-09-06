@@ -150,21 +150,21 @@ body{
     width: 0.5em;
     height: 0.7em;
     background-color: white;
-    top: 0.5em;
-    left: 0.75em;
+    top: 0.3em;
+    left: 0.5em;
     border-radius: 50%;
-    transform: rotate(15deg);
+    transform: rotate(25deg);
 }
 .inside-right-eye{
     position: absolute;
     z-index: 999;
-    width: 1em;
-    height: 1.3125em;
+    width: 0.5em;
+    height: 0.7em;
     background-color: white;
-    top: 0.5em;
-    left: 0.25em;
+    top: 0.3em;
+    left: 1.5em;
     border-radius: 50%;
-    transform: rotate(10deg);
+    transform: rotate(-25deg);
 }
 .dog-nose{
     position: absolute;
