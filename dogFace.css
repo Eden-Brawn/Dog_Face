@@ -181,8 +181,8 @@ body{
 .dog-left-mouth{
     position: absolute;
     z-index: 999;
-    width: 3em;
-    height: 3em;
+    width: 6em;
+    height: 6em;
     border: 2px solid #000;
     border-top-left-radius: 15em;
     border-top-right-radius: 9em;
@@ -190,4 +190,21 @@ body{
     border-bottom-right-radius: 0;
     border-color: black transparent transparent transparent;
     transform: rotate(180deg);
+    top: 15.5em;
+    left: 10em;
+}
+.dog-right-mouth{
+    position: absolute;
+    z-index: 999;
+    width: 6em;
+    height: 6em;
+    border: 2px solid #000;
+    border-top-right-radius: 15em;
+    border-top-left-radius: 9em;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-color: black transparent transparent transparent;
+    transform: rotate(180deg);
+    top: 15.5em;
+    left: 12em;
 }
