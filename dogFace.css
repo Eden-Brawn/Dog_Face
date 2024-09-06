@@ -224,8 +224,18 @@ body{
     z-index: 998;
     width: 7em;
     height: 5em;
-    background-color: rgb(244, 244, 244);
+    background: linear-gradient(to left, rgb(230, 230, 230) 29.5%, transparent 31%);
     top: 14em;
     left: 6em;
+    border-radius: 50%;
+}
+.cover-right{
+    position: absolute;
+    z-index: 998;
+    width: 4em;
+    height: 4em;
+    background: linear-gradient(to right, rgb(230, 230, 230) 40%, transparent 41%);
+    top: 14.75em;
+    left: 12.35em;
     border-radius: 50%;
 }
