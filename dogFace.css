@@ -145,7 +145,10 @@ body{
     width: 4em;
     height: 3em;
     background-color: black;
-    border-radius: 50%;
+    border-top-left-radius: 3em;
+    border-top-right-radius: 3em;
+    border-bottom-left-radius: 6em;
+    border-bottom-right-radius: 6em;
     top: 15em;
     left: 10.5em;
 }
