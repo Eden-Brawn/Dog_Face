@@ -210,9 +210,21 @@ body{
 }
 .tounge{
     position: absolute;
-    z-index: 999;
+    z-index: 997;
     width: 3em;
     height: 5em;
     background-color: red;
-    
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    top: 17em;
+    left: 10.95em;
+}
+.cover{
+    position: absolute;
+    z-index: 998;
+    width: 7em;
+    height: 5em;
+    background-color: rgb(244, 244, 244);
+    top: 15em;
+    left: 10em;
 }
