@@ -190,8 +190,8 @@ body{
     border-bottom-right-radius: 0;
     border-color: black transparent transparent transparent;
     transform: rotate(180deg);
-    top: 15.5em;
-    left: 10em;
+    top: 13em;
+    left: 7.5em;
 }
 .dog-right-mouth{
     position: absolute;
@@ -205,6 +205,9 @@ body{
     border-bottom-right-radius: 0;
     border-color: black transparent transparent transparent;
     transform: rotate(180deg);
-    top: 15.5em;
-    left: 12em;
+    top: 13em;
+    left: 11.5em;
+}
+.tounge{
+    
 }
