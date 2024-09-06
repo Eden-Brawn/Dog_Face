@@ -178,6 +178,32 @@ body{
     left: 5em;
     transform: rotate(-5deg);
 }
+.right-one{
+    position: absolute;
+    z-index: 999;
+    width: 5em;
+    border-bottom: solid 0.01em black;
+    top: 15em;
+    left: 5em;
+    transform: rotate(5deg);
+}
+.right-two{
+    position: absolute;
+    z-index: 999;
+    width: 5em;
+    border-bottom: solid 0.01em black;
+    top: 16em;
+    left: 5em;
+}
+.right-three{
+    position: absolute;
+    z-index: 999;
+    width: 5em;
+    border-bottom: solid 0.01em black;
+    top: 17em;
+    left: 5em;
+    transform: rotate(-5deg);
+}
 .dog-left-mouth{
     position: absolute;
     z-index: 999;
